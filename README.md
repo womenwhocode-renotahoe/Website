@@ -26,12 +26,14 @@ Formatting
 
 **Filenames:** file-name.jpg
 
-**CSS:** .class-name {
+**CSS:**
 
-	property: value;
+	.class-name {
+		property: value;
+	}
 
-}
+**Javascript:** 
 
-**Javascript Functions:** function functionName() {}
-
-**Variables:** var variable-name
+	function functionName() {
+		var variable-name
+	}
