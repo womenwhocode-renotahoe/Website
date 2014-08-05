@@ -1,0 +1,17 @@
+#site_content
+{ width: 750px;
+  height: 250px; 
+  overflow: hidden;
+  margin: 0 auto 0 auto;
+  padding: 0;
+  background: transparent url(Images/grey.jpg) repeat;
+} 
+
+#content
+{ text-align: left;
+  width: 630px;
+  padding: 25px 0 5px 25px;
+  margin: 0;}
+
+
+
