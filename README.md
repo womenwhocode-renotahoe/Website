@@ -1,7 +1,7 @@
 Women Who Code Reno-Tahoe Website
 ===================
 
-Members Website for the Women Who Code - Reno Tahoe group. A "back-to-basics" HTML/CSS project that will practice writing in the command line and using git.
+Members Website for the Women Who Code Reno-Tahoe group. A "back-to-basics" HTML/CSS project that will practice writing in the command line and using git.
 
 Resources
 ---------
@@ -15,7 +15,9 @@ Branding
   #00b6aa , 
   #99e1dd
 
-**Logo:** assets/logo.jpg
+**WWC Organization Logo:** assets/logo.jpg
+
+**WWC Reno-Tahoe Logo:** assets/WWC-Reno-Tahoe-Logo.ai
 
 Formatting
 ----------
@@ -25,6 +27,13 @@ Formatting
 - follow example of the rest of the project (consistency is most important)
 
 **Filenames:** file-name.jpg
+
+**HTML:**
+
+	<ul class="class-name">
+		<li>indent child elements</li>
+		<li>use quotes for tag attributes</li>
+	</ul>
 
 **CSS:**
 
