@@ -8,6 +8,10 @@ Resources
 
 **Git Cheat Sheet:** http://rogerdudler.github.io/git-guide/files/git_cheat_sheet.pdf
 
+**HTML Validator:** http://validator.w3.org/
+
+**CSS Validator:** http://jigsaw.w3.org/css-validator/
+
 Branding
 --------
 
@@ -15,7 +19,7 @@ Branding
   #00b6aa , 
   #99e1dd
 
-**WWC Organization Logo:** assets/logo.jpg
+**WWC Organization Logo:** assets/wwc-logo.jpg
 
 **WWC Reno-Tahoe Logo:** assets/WWC-Reno-Tahoe-Logo.ai
 
@@ -46,3 +50,20 @@ Formatting
 	function functionName() {
 		var variable-name
 	}
+
+Browser Support
+---------------
+
+*Check on both Mac and Windows*
+
+- **Chrome** - most recent version
+- **Firefox** - most recent version
+- **IE** 9+ preferred, 10+ required
+- **Safari** 7+
+- **Opera** - most recent version
+
+**Devices**
+
+- iPhone
+- iPad / tablet
+- Android
