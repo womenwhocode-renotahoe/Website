@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-<title>Contact | Women Who Code Reno-Tahoe</title>
+<title>Resources | Women Who Code Reno-Tahoe</title>
 <link rel="stylesheet" type="text/css" href="../styles/style.css">
 
 <!--[if lt IE 9]>
@@ -14,6 +14,7 @@
 <header>
     <div>
     	<a href="/"><img src="../images/logo.jpg" alt="Women Who Code Reno Tahoe"></a>
+    	<a href="/">Home</a>
 
     	<nav>
     		<ul>
@@ -26,14 +27,28 @@
 </header>
 
 <main>
-    <h1>Contact</h1>
+    <h1>Resources</h1>
+
+	<p>Category 1</p>
+	<p>Category 2</p>
+	<p>Category 3</p>
+	
+	<p>Category 1</p>
+	<h2>Text Editors</h2>
+	<ul>
+		<li>Gedit</li>
+		<li>Sublime</li>
+	</ul>
+	
+	<p>Category 2</p>
+	<p>Category 3</p>
 </main>
 
 <footer>
     <div>
         <div>
 
-            <ul>
+            <ul class="nav">
                 <li><a href="../events">Events</a></li>
                 <li><a href="../resources">Resources</a></li>
                 <li><a href="../contact">Contact</a></li>
