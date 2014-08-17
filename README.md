@@ -32,6 +32,8 @@ Formatting
 
 **Filenames:** file-name.jpg
 
+**Indents:** 4 spaces per tab, indent nested items
+
 **HTML:**
 
 	<ul class="class-name">
