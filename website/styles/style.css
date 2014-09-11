@@ -117,7 +117,7 @@ footer li {
     width: 30px;
 }
 
-footer a {
+footer ul a {
     text-decoration: none;
     text-transform: lowercase;
 }
