@@ -19,36 +19,28 @@ html, body {
 
 /* ----- RESET/BASIC CLASSES ----- */
 
-a {
-	color: #99e1dd;
-}
+a { color: #99e1dd; }
 
 h1, h2, h3, h4, p {
 	margin: 0 0 1em;
 	padding: 0;
 }
 
-li {
+h1 { margin: 0 0 2em; }
+
+ul, li {
 	margin: 0;
-	padding: 0;
-        
-}
-
-ul {
-
-         text-indent: 50px;
-
+	padding: 0;    
 }
 
 li { list-style-type: none; }
-
 
 /* ----- LAYOUT ----- */
 
 header {
     width: 100%;
     background-color: #fff;
-    margin-bottom: 50px;
+    margin-bottom: 75px;
 }
 
 header div {
@@ -80,6 +72,10 @@ nav a {
     font-size: 20px;
 }
 
+nav a:hover {
+	color: #88d0cc;
+}
+
 main {
     width: 1000px;
     margin:0 auto;
@@ -88,6 +84,7 @@ main {
 footer {
     background: #fff;
     width: 100%;
+	margin: 100px 0 0;
 }
 
 footer > div {
@@ -130,13 +127,108 @@ footer a {
     text-transform: lowercase;
 }
 
+/* ----- HOME ----- */
+
+.home h1 {
+	font-size: 48px;
+	line-height: 1.25em;
+}
+
 /* ----- EVENTS ----- */
 
-.events-join {
+/*.events-join {
 	width: 750px;
 	height: 250px; 
 	overflow: hidden;
 	margin: 0 auto;
 	padding: 0;
 	background: transparent url("../images/grey.jpg") repeat;
+}*/
+
+.events section {
+	background: #fff;
+	width: 263px; /* 1000 / 3 - 50 (padding) - 20 (2 margins / 3) */
+	margin-left: 30px;
+	padding: 25px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.events h1 + section {
+	margin-left: 0;
+}
+
+.events ul {
+	margin: 2em 0 0;
+}
+
+.events li {
+	margin: 0 0 .5em;
+	line-height: 20px;
+}
+
+.events li span {
+	background: url('../images/icons/when.png') no-repeat 0 0;
+	background-size: 20px;
+	width: 2em;
+	display: inline-block;
+	color: transparent;
+	/*font-weight: bold;*/
+}
+
+.events li + li span {
+	background-image: url('../images/icons/where.png');
+}
+
+.events ul + ul li {
+	margin-left: 1em;
+	list-style-type: disc;
+}
+
+.events object {
+	background: #fff;
+	width: 950px;
+	height: 600px;
+	margin: 50px 0;
+	padding: 25px
+}
+
+/* ----- CONTACT ----- */
+
+div.container {
+    display: -webkit-box;      /* (http://css-tricks.com/using-flexbox) OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
+    display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+    flex-direction:row;
+}
+
+div.map {
+    margin-left:90px;
+    width:640px;
+}
+
+div.contact:first-child div{
+    margin-top:10px;
+    width:250px;
+    display: -webkit-box;      /* (http://css-tricks.com/using-flexbox) OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
+    display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div.contact div:first-child {
+    margin-bottom:50px;
+}
+
+div.contact h3 {
+    margin:20px 0 10px 0;
+}
+
+div.map li {
+    margin-bottom: 20px;
 }
