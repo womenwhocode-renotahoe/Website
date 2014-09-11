@@ -1,7 +1,10 @@
 body {
-    background-color: #d0e4fe;
+	background-color: #d0e4fe;
 }
 
+ul  {
+	text-indent: 50px;
+}
 h1 {
     color: orange;
     text-align: center;
