@@ -78,7 +78,7 @@ nav a:hover {
 
 main {
     width: 1000px;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 footer {
@@ -101,8 +101,8 @@ footer div div {
 }
 
 footer div div:first-child {
-    border-right: 1px solid #e3e3e3;
-    width: 649px;
+    /*border-right: 1px solid #e3e3e3;*/
+    width: 650px;
     margin-right: 25px;
     padding-right: 25px;
 }
@@ -195,9 +195,30 @@ footer ul a {
 	padding: 25px
 }
 
+/* ----- RESOURCES ----- */
+
+.resources ul {
+	margin: 0 0 2em;
+}
+
+.resources li {
+	margin: 0 0 .5em;	
+}
+
+.resources li li {
+	margin-left: 1em;
+}
+
+.resources span {
+	margin: 0 0 1em;
+	display: block;
+	font-size: 18px;
+	font-weight: bold;
+}
+
 /* ----- CONTACT ----- */
 
-div.container {
+###div.container {
     display: -webkit-box;      /* (http://css-tricks.com/using-flexbox) OLD - iOS 6-, Safari 3.1-6 */
     display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
     display: -ms-flexbox;      /* TWEENER - IE 10 */
@@ -206,12 +227,7 @@ div.container {
     flex-direction:row;
 }
 
-div.map {
-    margin-left:90px;
-    width:640px;
-}
-
-div.contact:first-child div{
+###div.contact:first-child div{
     margin-top:10px;
     width:250px;
     display: -webkit-box;      /* (http://css-tricks.com/using-flexbox) OLD - iOS 6-, Safari 3.1-6 */
@@ -223,14 +239,41 @@ div.contact:first-child div{
     justify-content: space-between;
 }
 
-div.contact div:first-child {
+###div.contact div:first-child {
     margin-bottom:50px;
 }
 
-div.contact h3 {
-    margin:20px 0 10px 0;
+.contact {
+    width: 358px;
+	display: inline-block;
+	vertical-align: top;
 }
 
-div.map li {
-    margin-bottom: 20px;
+.contact li {
+	width: 50px;
+	margin: 0 75px 50px 0;
+	display: inline-block;
+}
+
+.contact a {
+	display: block;
+}
+
+.contact img {
+	width: 100%;
+}
+
+.map {
+    /*margin-left: 90px;*/
+	width: 642px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.map h3 {
+    margin: 1em 0;
+}
+
+.map img {
+	border: 1px solid #ccc;
 }
