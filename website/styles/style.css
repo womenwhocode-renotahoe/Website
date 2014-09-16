@@ -76,7 +76,7 @@ nav a:hover {
 	color: #88d0cc;
 }
 
-main {
+article {
     width: 1000px;
     margin: 0 auto;
 }
@@ -276,4 +276,31 @@ footer ul a {
 
 .map img {
 	border: 1px solid #ccc;
+}
+
+/* ----- RESPONSIVE ----- */
+
+@media (max-width: 1000px) {
+	header div, article, footer > div {
+		width: auto;
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+}
+
+@media (max-width: 575px) {
+	header img {
+		position: relative;
+	}
+	
+	nav {
+		padding-top: 15px;
+	}
+}
+
+@media (max-width: 700px) {
+	footer div div:first-child {
+		width: auto;
+		margin: 0;
+	}
 }
