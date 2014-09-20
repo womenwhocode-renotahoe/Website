@@ -68,16 +68,6 @@
 		
 	</section>
 	
-	<!--<div class="events-join">
-		<h2 style="text-align:center"><em>Join Us!</em></h2>
-		<ul>
-			<li><a href="http://www.meetup.com/Women-Who-Code-Reno-Tahoe/join/" target="_blank">Join</a> our Meetup Group</li>
-			<li><a href="https://www.google.com/calendar/render?cid=tthe67ns5nu0h37kr213pdqsrpgjidg5@import.calendar.google.com" target="_blank">Subscribe</a> to our Events Calendarclick on the <a href="https://www.google.com/calendar/render?cid=tthe67ns5nu0h37kr213pdqsrpgjidg5@import.calendar.google.com" target="_blank"><img class="subscribe-image" src="images/calendar_plus_en.gif" alt="Add to Google Calendar"onclick="gcal$func$[3]();"></a><img src="/images/calendar_plus_en.gif" style="max-width:100%;" alt="Add Google Calendar"></li>
-			<li>RSVP for an event: click on the event -> click on more details -> click on the meetup link to RSVP</li>
-		</ul>
-	</div>-->
-	
-	<!--this calendar is messed up. times are wrong and some events are missing-->
 	<object data="https://www.google.com/calendar/embed?src=tthe67ns5nu0h37kr213pdqsrpgjidg5%40import.calendar.google.com&amp;ctz=America/Los_Angeles/?nocache"></object>
 </article>
 
@@ -102,13 +92,69 @@
                 <li><a href="mailto:coders@womenwhocoderenotahoe.com"><img src="../images/icons/email-icon.png" alt="Email"></a></li>
             </ul>
 
-            <form>
-                <p>MailChimp form goes here</p>
-            </form>
+            <form action="//facebook.us8.list-manage.com/subscribe/post?u=b945d82b240b8c11bc06370bc&amp;id=3861078ef1" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate mailchimp" target="_blank" novalidate>
+				<label for="mce-EMAIL">Subscribe to our mailing list</label>
+				<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+				<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+				<div style="position: absolute; left: -5000px;"><input type="text" name="b_b945d82b240b8c11bc06370bc_3861078ef1" tabindex="-1" value=""></div>
+				<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+			</form>
 
         </div>
     </div>
 </footer>
+
+<!--<script src="http://api.meetup.com/2/open_events.json?callback=writeevents&topic=Women-Who-Code&groupnum=7286852&time=,3w&status=upcoming&key=756a84b264c47b1225147443352d76"></script>-->
+<!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>
+
+$(document).ready(function(){
+
+	//var meetupAPI = 'http://api.meetup.com/2/open_events.json?topic=Women-Who-Code&groupnum=7286852&time=,3w&status=upcoming&key=756a84b264c47b1225147443352d76';
+	//var meetupAPI = 'http://api.meetup.com/Women-Who-Code-Reno-Tahoe?key=756a84b264c47b1225147443352d76';
+	var meetupAPI = 'http://api.meetup.com/2/events.json?group_urlname=Women-Who-Code-Reno-Tahoe&key=756a84b264c47b1225147443352d76';
+	
+	/*$.getJSON( meetupAPI, function() {
+		console.log( 'success' );
+	})
+		.always( function(data) {
+			//alert('done');
+			$('#response').html('<b>Response: <br></b>');
+			
+			$.each(data.items, function(i, x){
+				$('#response').append(i + '<br>' + x + '<br><br>');
+			});
+	});*/
+	
+	/*showevents = function(){
+		$('#response').html('callback');
+	}
+	
+	$.getJSON( meetupAPI + '&callback=showevents', function() {
+		console.log( 'success' );
+	});*/
+	
+	/*$.getJSON('http://api.meetup.com/2/events.json', { 'group_urlname' : 'Women-Who-Code-Reno-Tahoe', 'key' : '756a84b264c47b1225147443352d76' })
+		.always( function(data) {
+			$('#response').html('<b>Response: <br></b>');
+			
+			$.each(data, function(i, x){
+				$('#response').append(i + '<br>' + x + '<br><br>');
+			});
+	});*/
+	
+	/*$.ajax({
+        type: 'GET',
+        url: meetupAPI,
+        dataType: 'jsonp',
+        success: function (data) {
+            $('#response').html('Passed');
+        }
+    });*/
+	
+});
+	
+</script>-->
 
 </body>
 </html>
