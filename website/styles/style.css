@@ -220,31 +220,6 @@ footer ul a {
 
 /* ----- CONTACT ----- */
 
-###div.container {
-    display: -webkit-box;      /* (http://css-tricks.com/using-flexbox) OLD - iOS 6-, Safari 3.1-6 */
-    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
-    display: -ms-flexbox;      /* TWEENER - IE 10 */
-    display: -webkit-flex;     /* NEW - Chrome */
-    display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
-    flex-direction:row;
-}
-
-###div.contact:first-child div{
-    margin-top:10px;
-    width:250px;
-    display: -webkit-box;      /* (http://css-tricks.com/using-flexbox) OLD - iOS 6-, Safari 3.1-6 */
-    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
-    display: -ms-flexbox;      /* TWEENER - IE 10 */
-    display: -webkit-flex;     /* NEW - Chrome */
-    display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-###div.contact div:first-child {
-    margin-bottom:50px;
-}
-
 .contact {
     width: 358px;
 	display: inline-block;
